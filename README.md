@@ -1,0 +1,2 @@
+# QQChatGPTBot
+基于Mirai与ChatGPT打造的QQ群聊天机器人
