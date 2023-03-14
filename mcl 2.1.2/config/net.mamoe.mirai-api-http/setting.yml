@@ -1,0 +1,18 @@
+adapters:
+  - ws
+  - http
+debug: true
+enableVerify: true
+verifyKey: yirimirai
+singleMode: false
+cacheSize: 4096
+adapterSettings:
+  ws:
+    host: localhost
+    port: 8080
+    reservedSyncId: -1
+  http:
+    host: localhost
+    port: 80
+    cors: [*]
+    unreadQueueMaxSize: 500
